@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(80, 156, 184);
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+.contenedor{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.968);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(53, 21, 21, 0.728);
+}
+.tiempo{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.botones button{
+    background-color: deepskyblue;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3;
+}
+.botones button:hover{
+    background-color: aqua;
+}
